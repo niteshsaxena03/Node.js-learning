@@ -19,6 +19,10 @@ app.get("/saxena", (req, res) => {
   res.send("<h1>Saxena Page</h1>");
 });
 
+app.get('/github', (req, res) => {
+  res.send("<h1>Github Page</h1>");
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`);
 });
